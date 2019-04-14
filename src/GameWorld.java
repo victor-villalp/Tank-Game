@@ -6,9 +6,7 @@ import src.gameobjects.*;
 import java.awt.event.KeyEvent;
 import java.awt.image.BufferedImage;
 import java.awt.*;
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 import java.util.ArrayList;
 import javax.imageio.ImageIO;
 
@@ -84,7 +82,8 @@ public class GameWorld extends JPanel {
     // Reads Map.txt file to populate game world with objects
     private void createMap() {
         try{
-           BufferedReader br = new BufferedReader(new FileReader(getClass().getResource("/resources/Map.txt").getFile()));
+            InputStream in = getClass().getResourceAsStream("/resources/Map.txt");
+            BufferedReader br = new BufferedReader(new InputStreamReader(getClass().getResourceAsStream("/resources/Map.txt")));
             String line;
             int j = 0; // Keeps track of rows
 
@@ -148,7 +147,7 @@ public class GameWorld extends JPanel {
                 i--;
             }
             if(gameObjects.get(i) instanceof Wall){
-                if(((Wall)gameObjects.get(i)).isBreakable() && !((Wall)gameObjects.get(i)).isAlive()){
+                if (((Wall) gameObjects.get(i)).isBreakable() && !gameObjects.get(i).isAlive()) {
                     gameObjects.remove(i);
                     i--;
                 }

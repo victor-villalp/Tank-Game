@@ -17,6 +17,7 @@ public class Tank extends GameObject implements Collidable {
     private BufferedImage bulletImg, smallExplosionImg, largeExplosionImg;
     private GameWorld gw;
     private String tankName;
+    private int count = 0;
 
     public Tank(int x, int y, int vx, int vy, int angle, BufferedImage tankImg, BufferedImage bulletImg, String tankName, GameWorld gw) {
         super(x, y, tankImg);
@@ -150,11 +151,6 @@ public class Tank extends GameObject implements Collidable {
         }
     }
 
-    public void addLife() {
-        if(lives < 4){
-            lives++;
-        }
-    }
     private void depleteHealth() {
         if(health > 0){
             health--;
@@ -180,8 +176,12 @@ public class Tank extends GameObject implements Collidable {
         if(obj instanceof Bullet && ((Bullet)obj).getOwner() != this.tankName){
             this.depleteHealth();
         }
-        if(obj instanceof PowerUp){
-            this.addLife();
+        if (obj instanceof PowerUp && lives < 4) {
+            count++; // keeps track of double tank and powerUp collision
+            if (count == 2) {
+                lives++;
+                count = 0;
+            }
         }
     }
 
