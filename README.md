@@ -3,10 +3,10 @@
 ## Student Name : Victor Villalpando
 ## Student ID : 916023568
 
-# IDE: IntelliJ Idea 2019.1 IDE
-
-# Version of Java: 11.0.1
-
+## Project Info
+  IDE: IntelliJ Idea 2019.1 IDE
+  Version of Java: 11.0.1
+  
 ## How to Import the Game
 1. Clone or download the repo and open the project in IntelliJ.
 2. Click on "File" and locate and click on "Project Structure."
@@ -27,16 +27,16 @@ Two tanks will attack each other until one of them stands.
 ## Game Controls
 ---- Player1 controls ----
 
-W: Move Forwards
-A: Rotate left
-S: Move Backwards
-D: Rotate right
-Q: Shoot
+  W: Move Forwards
+  A: Rotate left
+  S: Move Backwards
+  D: Rotate right
+  F: Shoot
 
 ---- Player2 controls -----
 
-UP key: Move Forwards
-LEFT key: Rotate Left
-DOWN key: Move Backwards
-RIGHT key: Rotate Right
-ENTER key: Shoot
+  UP key: Move Forwards
+  LEFT key: Rotate Left
+  DOWN key: Move Backwards
+  RIGHT key: Rotate Right
+  ENTER key: Shoot
