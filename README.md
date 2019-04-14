@@ -4,8 +4,8 @@
 ## Student ID : 916023568
 
 ## Project Info
-  IDE: IntelliJ Idea 2019.1 IDE
-  Version of Java: 11.0.1
+  IDE: IntelliJ Idea 2019.1 IDE<br />
+  Version of Java: 11.0.1<br />
   
 ## How to Import the Game
 1. Clone or download the repo and open the project in IntelliJ.
@@ -27,16 +27,16 @@ Two tanks will attack each other until one of them stands.
 ## Game Controls
 ---- Player1 controls ----
 
-  W: Move Forwards
-  A: Rotate left
-  S: Move Backwards
-  D: Rotate right
-  F: Shoot
+  W: Move Forwards<br />
+  A: Rotate left<br />
+  S: Move Backwards<br />
+  D: Rotate right<br />
+  F: Shoot<br />
 
 ---- Player2 controls -----
 
-  UP key: Move Forwards
-  LEFT key: Rotate Left
-  DOWN key: Move Backwards
-  RIGHT key: Rotate Right
-  ENTER key: Shoot
+  UP key: Move Forwards<br />
+  LEFT key: Rotate Left<br />
+  DOWN key: Move Backwards<br />
+  RIGHT key: Rotate Right<br />
+  ENTER key: Shoot<br />
