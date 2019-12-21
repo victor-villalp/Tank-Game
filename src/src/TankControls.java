@@ -9,7 +9,7 @@ public class TankControls implements KeyListener {
     private final Tank player;
     private final int up, down, right, left, shoot;
 
-    public TankControls(Tank tank, int up, int down, int left, int right, int shoot){
+    TankControls(Tank tank, int up, int down, int left, int right, int shoot){
         this.up = up;
         this.down = down;
         this.left = left;

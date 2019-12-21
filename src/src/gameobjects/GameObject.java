@@ -5,13 +5,13 @@ import java.awt.image.BufferedImage;
 
 public abstract class GameObject {
 
-    protected int x;
-    protected int y;
-    protected boolean alive;
-    protected BufferedImage img;
-    protected Rectangle rectangle;
+    int x;
+    int y;
+    boolean alive;
+    BufferedImage img;
+    private Rectangle rectangle;
 
-    public GameObject(int x, int y, BufferedImage img) {
+    GameObject(int x, int y, BufferedImage img) {
         this.x = x;
         this.y = y;
         this.img = img;
@@ -35,7 +35,9 @@ public abstract class GameObject {
         this.y = y;
     }
 
-    public boolean isAlive(){ return this.alive;}
+    public boolean isAlive() { 
+	return this.alive;
+    }
 
     public Rectangle getRec() {
         return this.rectangle;

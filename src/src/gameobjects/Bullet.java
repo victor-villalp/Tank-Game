@@ -13,7 +13,7 @@ public class Bullet extends GameObject implements Collidable {
     private String owner;
     private BufferedImage explosion;
 
-    public Bullet(int x, int y, int angle, BufferedImage bulletImg, BufferedImage explosion, String owner){
+    Bullet(int x, int y, int angle, BufferedImage bulletImg, BufferedImage explosion, String owner){
         super(x, y, bulletImg);
         this.vx = (int) Math.round(3*Math.cos(Math.toRadians(angle)));
         this.vy = (int) Math.round(3*Math.sin(Math.toRadians(angle)));

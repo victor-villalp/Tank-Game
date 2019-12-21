@@ -31,7 +31,7 @@ public class Tank extends GameObject implements Collidable {
         this.gw = gw;
     }
 
-    public int getHealth() { return this.health;}
+    private int getHealth() { return this.health;}
 
     public int getLives() { return this.lives;}
 
@@ -169,7 +169,7 @@ public class Tank extends GameObject implements Collidable {
 
     @Override
     public void collision(Collidable obj) {
-        if(obj instanceof Wall || (obj instanceof Tank && ((Tank)obj).getTankName() != this.tankName)) {
+        if(obj instanceof Wall || (obj instanceof Tank && !((Tank)obj).getTankName().equals(this.tankName))) {
            this.x = prevX;
            this.y = prevY;
         }

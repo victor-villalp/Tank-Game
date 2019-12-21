@@ -1,0 +1,1027 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="csc413-tankgame-victor-villalp:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="01abc5e0-3a20-4021-a2ed-07386d7bccee" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/jar/r" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/Background.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/Explosion_large.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/Explosion_small.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/Map.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/Wall1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/Wall2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/Weapon.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/life.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/tank1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Collidable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameWorld.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TankControls.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gameobjects/Bullet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gameobjects/GameObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gameobjects/PowerUp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gameobjects/Tank.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gameobjects/Wall.java" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/src/GameWorld.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4774">
+              <caret line="164" column="31" selection-start-line="164" selection-start-column="16" selection-end-line="164" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/src/gameobjects/Tank.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="597">
+              <caret line="194" column="83" selection-start-line="193" selection-start-column="11" selection-end-line="194" selection-end-column="83" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/src/gameobjects/PowerUp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="589">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/src/gameobjects/Bullet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/src/gameobjects/GameObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="24" selection-start-column="24" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/src/gameobjects/Wall.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1054">
+              <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="42" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/src/TankControls.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="589">
+              <caret line="21" column="24" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/src/Collidable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="62">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>pai</find>
+      <find>rotations</find>
+      <find>screen_height</find>
+      <find>xcoord</find>
+      <find>repaint</find>
+      <find>addgame</find>
+      <find>alive</find>
+      <find>pla</find>
+      <find>tank</find>
+      <find>lar</find>
+      <find>large</find>
+      <find>lives</find>
+      <find>addga</find>
+      <find>player1Won</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/GameObject.java" />
+        <option value="$PROJECT_DIR$/src/Bullet.java" />
+        <option value="$PROJECT_DIR$/src/Tank.java" />
+        <option value="$PROJECT_DIR$/src/PowerUp.java" />
+        <option value="$PROJECT_DIR$/src/Wall.java" />
+        <option value="$PROJECT_DIR$/src/gameobject/Bullet.java" />
+        <option value="$PROJECT_DIR$/src/gameobject/Wall.java" />
+        <option value="$PROJECT_DIR$/src/gameobject/PowerUp.java" />
+        <option value="$PROJECT_DIR$/src/gameobject/GameObject.java" />
+        <option value="$PROJECT_DIR$/src/gameobject/Tank.java" />
+        <option value="$PROJECT_DIR$/src/TankControls.java" />
+        <option value="$PROJECT_DIR$/src/Collidable.java" />
+        <option value="$PROJECT_DIR$/src/gameobjects/Bullet.java" />
+        <option value="$PROJECT_DIR$/src/gameobjects/GameObject.java" />
+        <option value="$PROJECT_DIR$/src/gameobjects/Wall.java" />
+        <option value="$PROJECT_DIR$/src0/src/gameobjects/Tank.java" />
+        <option value="$PROJECT_DIR$/src/src/gameobjects/PowerUp.java" />
+        <option value="$PROJECT_DIR$/src/resources/Map.txt" />
+        <option value="$PROJECT_DIR$/src/gameobjects/PowerUp.java" />
+        <option value="$PROJECT_DIR$/src/gameobjects/Tank.java" />
+        <option value="$PROJECT_DIR$/resources/Map.txt" />
+        <option value="$PROJECT_DIR$/src/GameWorld.java" />
+        <option value="$PROJECT_DIR$/src/src/GameWorld.java" />
+        <option value="$PROJECT_DIR$/src/src/gameobjects/GameObject.java" />
+        <option value="$PROJECT_DIR$/src/src/gameobjects/Bullet.java" />
+        <option value="$PROJECT_DIR$/src/src/gameobjects/Wall.java" />
+        <option value="$PROJECT_DIR$/src/src/TankControls.java" />
+        <option value="$PROJECT_DIR$/src/src/gameobjects/Tank.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/artifacts/csc413_tankgame_victor_villalp_jar.xml" />
+        <option value="$PROJECT_DIR$/.idea/artifacts/csc413_tankgame_victor_villalp_jar.xml" />
+        <option value="$PROJECT_DIR$/.idea/dictionaries/villa.xml" />
+        <option value="$PROJECT_DIR$/.idea/artifacts/csc413_tankgame_victor_villalp_jar.xml" />
+        <option value="$PROJECT_DIR$/.idea/artifacts/csc413_tankgame_victor_villalp_jar.xml" />
+        <option value="$PROJECT_DIR$/.idea/artifacts/csc413_tankgame_victor_villalp_jar.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="765" />
+    <option name="y" value="210" />
+    <option name="width" value="1100" />
+    <option name="height" value="1104" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="csc413-tankgame-victor-villalp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="csc413-tankgame-victor-villalp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="csc413-tankgame-victor-villalp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="csc413-tankgame-victor-villalp" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="csc413-tankgame-victor-villalp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="csc413-tankgame-victor-villalp" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="csc413-tankgame-victor-villalp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="csc413-tankgame-victor-villalp" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="csc413_tankgame_victor_villalp_jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="csc413-tankgame-victor-villalp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="csc413-tankgame-victor-villalp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="csc413-tankgame-victor-villalp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="csc413-tankgame-victor-villalp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="csc413-tankgame-victor-villalp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="csc413-tankgame-victor-villalp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="gameobjects" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ChangesTree.GroupingKeys" value="directory" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553997404894" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15369059" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\villa\IdeaProjects\csc413-tankgame-victor-villalp\out\production\csc413-tankgame-victor-villalp\META-INF" />
+      <recent name="C:\Users\villa\IdeaProjects\csc413-tankgame-victor-villalp\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\villa\IdeaProjects\csc413-tankgame-victor-villalp\jar" />
+      <recent name="C:\Users\villa\IdeaProjects\csc413-tankgame-victor-villalp\out\artifacts" />
+      <recent name="C:\Users\villa\IdeaProjects\csc413-tankgame-victor-villalp\out" />
+      <recent name="C:\Users\villa\IdeaProjects\csc413-tankgame-victor-villalp\resources" />
+      <recent name="C:\Users\villa\IdeaProjects\csc413-tankgame-victor-villalp" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="GameWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="MAIN_CLASS_NAME" value="src.GameWorld" />
+      <module name="csc413-tankgame-victor-villalp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src0.src.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GameWorld" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\villa\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="01abc5e0-3a20-4021-a2ed-07386d7bccee" name="Default Changelist" comment="" />
+      <created>1553838369736</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553838369736</updated>
+      <workItem from="1553838371113" duration="72000" />
+      <workItem from="1553839161051" duration="2595000" />
+      <workItem from="1553901194055" duration="602000" />
+      <workItem from="1553901806642" duration="7241000" />
+      <workItem from="1554163565128" duration="4000" />
+      <workItem from="1554341823645" duration="39000" />
+      <workItem from="1554341960027" duration="39000" />
+      <workItem from="1554342147579" duration="3249000" />
+      <workItem from="1554413957584" duration="7205000" />
+      <workItem from="1554498039160" duration="11000" />
+      <workItem from="1554503425015" duration="32000" />
+      <workItem from="1554697923926" duration="10072000" />
+      <workItem from="1554760755893" duration="27772000" />
+      <workItem from="1554919211427" duration="13951000" />
+      <workItem from="1554949730375" duration="18798000" />
+      <workItem from="1554996608712" duration="6000" />
+      <workItem from="1555011205250" duration="16779000" />
+      <workItem from="1555084312797" duration="3595000" />
+      <workItem from="1555093538996" duration="17118000" />
+      <workItem from="1555131575215" duration="11796000" />
+      <workItem from="1555173436207" duration="864000" />
+      <workItem from="1555186358850" duration="6555000" />
+      <workItem from="1555202100300" duration="24574000" />
+      <workItem from="1555233644320" duration="506000" />
+      <workItem from="1555234210242" duration="749000" />
+      <workItem from="1555234995209" duration="15000" />
+      <workItem from="1555235314854" duration="1608000" />
+      <workItem from="1555260518213" duration="5083000" />
+      <workItem from="1555271303626" duration="1409000" />
+      <workItem from="1555272854928" duration="158000" />
+      <workItem from="1555273045057" duration="315000" />
+      <workItem from="1555273498341" duration="521000" />
+      <workItem from="1555274075413" duration="45000" />
+      <workItem from="1555275011330" duration="64000" />
+      <workItem from="1555275115387" duration="96000" />
+      <workItem from="1555365275965" duration="762000" />
+      <workItem from="1555368146778" duration="63000" />
+      <workItem from="1555375517017" duration="473000" />
+      <workItem from="1555377419252" duration="1511000" />
+      <workItem from="1555379937283" duration="10000" />
+      <workItem from="1555380412623" duration="22000" />
+      <workItem from="1555384945177" duration="1811000" />
+      <workItem from="1555548326724" duration="795000" />
+      <workItem from="1555551507407" duration="14000" />
+      <workItem from="1555551804419" duration="17000" />
+      <workItem from="1555551930557" duration="1699000" />
+      <workItem from="1555703418250" duration="783000" />
+      <workItem from="1555984879590" duration="1177000" />
+      <workItem from="1556435057438" duration="1829000" />
+      <workItem from="1556561069176" duration="593000" />
+      <workItem from="1556658042124" duration="843000" />
+      <workItem from="1556691193520" duration="14000" />
+      <workItem from="1556698768500" duration="9000" />
+      <workItem from="1556753379429" duration="23000" />
+      <workItem from="1557038389109" duration="255000" />
+      <workItem from="1557128084248" duration="139000" />
+      <workItem from="1557184419862" duration="18000" />
+      <workItem from="1557595005746" duration="30000" />
+      <workItem from="1557599311510" duration="88000" />
+      <workItem from="1557600652732" duration="1411000" />
+      <workItem from="1557604040617" duration="53000" />
+      <workItem from="1557621612760" duration="7000" />
+      <workItem from="1557640395509" duration="3392000" />
+      <workItem from="1557644021004" duration="643000" />
+      <workItem from="1557647987750" duration="969000" />
+      <workItem from="1557649871904" duration="500000" />
+      <workItem from="1557678719417" duration="23000" />
+      <workItem from="1557678814898" duration="400000" />
+      <workItem from="1557689369405" duration="2887000" />
+      <workItem from="1557693246512" duration="1469000" />
+      <workItem from="1557699071786" duration="3666000" />
+      <workItem from="1557762275833" duration="16000" />
+      <workItem from="1557784705113" duration="624000" />
+      <workItem from="1557795622831" duration="621000" />
+      <workItem from="1557796799781" duration="418000" />
+      <workItem from="1557800160169" duration="218000" />
+      <workItem from="1557811059303" duration="7000" />
+      <workItem from="1557892966463" duration="39000" />
+      <workItem from="1557894117477" duration="2442000" />
+      <workItem from="1557949031105" duration="188000" />
+      <workItem from="1557993705622" duration="27000" />
+      <workItem from="1557996401891" duration="59000" />
+      <workItem from="1558023561515" duration="29000" />
+      <workItem from="1558055019374" duration="604000" />
+      <workItem from="1558062245690" duration="1275000" />
+      <workItem from="1558070362514" duration="29000" />
+      <workItem from="1558118239709" duration="619000" />
+      <workItem from="1558146888131" duration="664000" />
+      <workItem from="1558149022741" duration="611000" />
+      <workItem from="1558172655697" duration="597000" />
+      <workItem from="1558199586185" duration="161000" />
+      <workItem from="1558203459712" duration="585000" />
+      <workItem from="1558246827129" duration="4544000" />
+      <workItem from="1558291407536" duration="9536000" />
+      <workItem from="1559446236373" duration="171000" />
+      <workItem from="1575876641491" duration="1662000" />
+      <workItem from="1576216388271" duration="598000" />
+      <workItem from="1576645505466" duration="318000" />
+    </task>
+    <task id="LOCAL-00001" summary="Implemented game objects, tank controls, game world and collidable interface. Collisions did behave as expected.">
+      <created>1555130790708</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1555130790708</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Implemented game objects, tank controls, game world and collidable interface. Collisions did behave as expected.">
+      <created>1555232650194</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1555232650194</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Game works but I did not include the jar file because Map.txt file cannot be read when building the jar.">
+      <created>1555233149908</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1555233149908</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Game works but I did not include the jar file because Map.txt file cannot be read when building the jar.">
+      <created>1555234059708</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1555234059709</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Game works but I did not include the jar file because Map.txt file cannot be read when building the jar.">
+      <created>1555234333978</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1555234333978</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Game works but I did not include the jar file because Map.txt file cannot be read when building the jar.">
+      <created>1555234604608</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1555234604608</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Game works and jar file runs after changing the BufferReader to read an InputStream.">
+      <created>1555271806515</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1555271806515</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Game works and jar file runs after changing the BufferReader to read an InputStream.">
+      <created>1555271904568</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1555271904568</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Game works and jar file runs after changing the BufferReader to read an InputStream.">
+      <created>1555273651083</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1555273651083</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="238598000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.118120804" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" weight="0.18611111" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3986111" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3297587" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067115" side_tool="true" weight="0.2989276" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3297587" />
+      <window_info active="true" anchor="bottom" id="GitHub Pull Requests" order="13" visible="true" weight="0.3297587" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.3295302" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.3295302" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.08859061" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" weight="0.18611111" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3994638" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3297587" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067115" side_tool="true" weight="0.2989276" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3297587" />
+      <window_info active="true" anchor="bottom" id="GitHub Pull Requests" order="13" visible="true" weight="0.3297587" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.3295302" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.3295302" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="Implemented game objects, tank controls, game world and collidable interface. Collisions did behave as expected." />
+    <MESSAGE value="Game works but I did not include the jar file because Map.txt file cannot be read when building the jar." />
+    <MESSAGE value="Game works and jar file runs after changing the BufferReader to read an InputStream." />
+    <option name="LAST_COMMIT_MESSAGE" value="Game works and jar file runs after changing the BufferReader to read an InputStream." />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/gameobject/TankControls.java" />
+    <entry file="file://$PROJECT_DIR$/src/gameobject/GameWorld.java" />
+    <entry file="file://$PROJECT_DIR$/src/gameobject/Collidable.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/function/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GameMenu.java" />
+    <entry file="file://$PROJECT_DIR$/resources/Shell.gif" />
+    <entry file="file://$PROJECT_DIR$/resources/Title.bmp" />
+    <entry file="file://$PROJECT_DIR$/resources/Tank1.gif" />
+    <entry file="file://$PROJECT_DIR$/resources/Tank2.gif" />
+    <entry file="file://$PROJECT_DIR$/resources/Wall1.gif" />
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/io/FileReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="58" column="11" selection-start-line="58" selection-start-column="11" selection-end-line="58" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/tank1.png" />
+    <entry file="file://$PROJECT_DIR$/src/CollisionHandler.java" />
+    <entry file="file://$PROJECT_DIR$/resources/life.gif" />
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.desktop/javax/imageio/ImageIO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="1399" column="18" selection-start-line="1399" selection-start-column="18" selection-end-line="1399" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/Weapon.gif" />
+    <entry file="file://$PROJECT_DIR$/resources/Wall2.gif" />
+    <entry file="file://$PROJECT_DIR$/resources/Explosion_small.gif" />
+    <entry file="file://$PROJECT_DIR$/resources/Explosion_large.gif" />
+    <entry file="file://$PROJECT_DIR$/src/gameobjects/GameObject.java" />
+    <entry file="file://$PROJECT_DIR$/src/Collidable.java" />
+    <entry file="file://$PROJECT_DIR$/src/gameobjects/Bullet.java" />
+    <entry file="file://$PROJECT_DIR$/src/TankControls.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.desktop/javax/swing/JComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1073" column="24" selection-start-line="1073" selection-start-column="24" selection-end-line="1073" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="1541" column="18" selection-start-line="1541" selection-start-column="18" selection-end-line="1541" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/life.gif" />
+    <entry file="file://$PROJECT_DIR$/src/resources/Weapon.gif" />
+    <entry file="file://$PROJECT_DIR$/src/gameobjects/Wall.java" />
+    <entry file="file://$PROJECT_DIR$/src/gameobjects/PowerUp.java" />
+    <entry file="file://$PROJECT_DIR$/src/gameobjects/Tank.java" />
+    <entry file="file://$PROJECT_DIR$/resources/Map.txt" />
+    <entry file="file://$PROJECT_DIR$/jar/r" />
+    <entry file="file://$PROJECT_DIR$/src/GameWorld.java" />
+    <entry file="file://$PROJECT_DIR$/resources/Background.bmp" />
+    <entry file="file://$PROJECT_DIR$/src/resources/Map.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="35" column="84" selection-start-line="35" selection-start-column="84" selection-end-line="35" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/Background.bmp">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/tank1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram/C:/Users/villa/IdeaProjects/csc413-tankgame-victor-villalp/src/src/gameobjects">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/src/src/gameobjects</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="597.0" y="261.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/src.gameobjects">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>src.gameobjects</OriginalElement>
+          <nodes>
+            <node x="206.0" y="189.0">src.GameWorld</node>
+            <node x="104.0" y="112.0">src.gameobjects.PowerUp</node>
+            <node x="252.5" y="112.0">src.gameobjects.Bullet</node>
+            <node x="375.5" y="112.0">src.gameobjects.Tank</node>
+            <node x="0.0" y="112.0">src.gameobjects.Wall</node>
+            <node x="0.0" y="189.0">src.TankControls</node>
+            <node x="241.0" y="0.0">src.Collidable</node>
+            <node x="79.0" y="0.0">src.gameobjects.GameObject</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="src.gameobjects.Wall" target="src.gameobjects.GameObject">
+              <point x="-21.0" y="-16.0" />
+              <point x="21.0" y="72.0" />
+              <point x="96.75" y="72.0" />
+              <point x="-53.25" y="16.0" />
+            </edge>
+            <edge source="src.gameobjects.PowerUp" target="src.gameobjects.GameObject">
+              <point x="-28.25" y="-16.0" />
+              <point x="-17.75" y="16.0" />
+            </edge>
+            <edge source="src.gameobjects.Wall" target="src.Collidable">
+              <point x="21.0" y="-16.0" />
+              <point x="63.0" y="82.0" />
+              <point x="258.75" y="82.0" />
+              <point x="-53.25" y="16.0" />
+            </edge>
+            <edge source="src.gameobjects.PowerUp" target="src.Collidable">
+              <point x="28.25" y="-16.0" />
+              <point x="188.75" y="92.0" />
+              <point x="294.25" y="92.0" />
+              <point x="-17.75" y="16.0" />
+            </edge>
+            <edge source="src.gameobjects.Tank" target="src.gameobjects.GameObject">
+              <point x="-21.0" y="-16.0" />
+              <point x="396.5" y="62.0" />
+              <point x="203.25" y="62.0" />
+              <point x="53.25" y="16.0" />
+            </edge>
+            <edge source="src.gameobjects.Tank" target="src.Collidable">
+              <point x="21.0" y="-16.0" />
+              <point x="438.5" y="52.0" />
+              <point x="365.25" y="52.0" />
+              <point x="53.25" y="16.0" />
+            </edge>
+            <edge source="src.gameobjects.Bullet" target="src.gameobjects.GameObject">
+              <point x="-25.75" y="-16.0" />
+              <point x="278.25" y="72.0" />
+              <point x="167.75" y="72.0" />
+              <point x="17.75" y="16.0" />
+            </edge>
+            <edge source="src.gameobjects.Bullet" target="src.Collidable">
+              <point x="25.75" y="-16.0" />
+              <point x="17.75" y="16.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="3.0" y="84.0" />
+          <SelectedNodes>
+            <node>src.gameobjects.Bullet</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/src">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>src</OriginalElement>
+          <nodes>
+            <node x="206.0" y="189.0">src.GameWorld</node>
+            <node x="123.0" y="112.0">src.gameobjects.PowerUp</node>
+            <node x="0.0" y="112.0">src.gameobjects.Bullet</node>
+            <node x="285.75" y="112.0">src.gameobjects.Tank</node>
+            <node x="389.75" y="112.0">src.gameobjects.Wall</node>
+            <node x="0.0" y="189.0">src.TankControls</node>
+            <node x="98.0" y="0.0">src.gameobjects.GameObject</node>
+            <node x="260.0" y="0.0">src.Collidable</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="src.gameobjects.Wall" target="src.gameobjects.GameObject">
+              <point x="-21.0" y="-16.0" />
+              <point x="410.75" y="62.0" />
+              <point x="222.25" y="62.0" />
+              <point x="53.25" y="16.0" />
+            </edge>
+            <edge source="src.gameobjects.PowerUp" target="src.gameobjects.GameObject">
+              <point x="-28.25" y="-16.0" />
+              <point x="-17.75" y="16.0" />
+            </edge>
+            <edge source="src.gameobjects.Wall" target="src.Collidable">
+              <point x="21.0" y="-16.0" />
+              <point x="452.75" y="52.0" />
+              <point x="384.25" y="52.0" />
+              <point x="53.25" y="16.0" />
+            </edge>
+            <edge source="src.gameobjects.PowerUp" target="src.Collidable">
+              <point x="28.25" y="-16.0" />
+              <point x="207.75" y="92.0" />
+              <point x="313.25" y="92.0" />
+              <point x="-17.75" y="16.0" />
+            </edge>
+            <edge source="src.gameobjects.Tank" target="src.gameobjects.GameObject">
+              <point x="-21.0" y="-16.0" />
+              <point x="306.75" y="72.0" />
+              <point x="186.75" y="72.0" />
+              <point x="17.75" y="16.0" />
+            </edge>
+            <edge source="src.gameobjects.Tank" target="src.Collidable">
+              <point x="21.0" y="-16.0" />
+              <point x="17.75" y="16.0" />
+            </edge>
+            <edge source="src.gameobjects.Bullet" target="src.gameobjects.GameObject">
+              <point x="-25.75" y="-16.0" />
+              <point x="25.75" y="72.0" />
+              <point x="115.75" y="72.0" />
+              <point x="-53.25" y="16.0" />
+            </edge>
+            <edge source="src.gameobjects.Bullet" target="src.Collidable">
+              <point x="25.75" y="-16.0" />
+              <point x="77.25" y="82.0" />
+              <point x="277.75" y="82.0" />
+              <point x="-53.25" y="16.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.1" x="37.0" y="146.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/GameWorld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4774">
+          <caret line="164" column="31" selection-start-line="164" selection-start-column="16" selection-end-line="164" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/gameobjects/PowerUp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/gameobjects/Bullet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/gameobjects/GameObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" selection-start-column="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/gameobjects/Wall.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1054">
+          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="42" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/TankControls.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="21" column="24" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/Collidable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/gameobjects/Tank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="597">
+          <caret line="194" column="83" selection-start-line="193" selection-start-column="11" selection-end-line="194" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>csc413-tankgame-victor-villalp:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>csc413-tankgame-victor-villalp</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

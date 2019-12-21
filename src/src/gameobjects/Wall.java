@@ -8,7 +8,7 @@ public class Wall extends GameObject implements Collidable {
 
     private final boolean breakable;
     private int wallHealth = 2;
-    BufferedImage explosionImg;
+    private BufferedImage explosionImg;
 
     public Wall(int x, int y, BufferedImage wallImg, BufferedImage explosionImg, boolean breakable){
         super(x, y, wallImg);
@@ -20,7 +20,7 @@ public class Wall extends GameObject implements Collidable {
         return this.breakable;
     }
 
-    public void depleteHealth() {
+    private void depleteHealth() {
         if(wallHealth > 0){
             wallHealth --;
         }else{
@@ -45,10 +45,9 @@ public class Wall extends GameObject implements Collidable {
 
     @Override
     public void drawImage(Graphics2D g2d) {
-        if ((breakable && alive) || !breakable){
+        if (alive) {
             g2d.drawImage(this.img, x, y, null);
-        }
-        if(breakable && !alive){
+        } else {
             g2d.drawImage(this.explosionImg, x, y, null);
         }
     }

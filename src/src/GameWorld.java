@@ -12,10 +12,9 @@ import javax.imageio.ImageIO;
 
 public class GameWorld extends JPanel {
 
-    public static final int SCREEN_WIDTH = 961, SCREEN_HEIGHT = 720;
     public static final int WORLD_WIDTH = 1920 ,WORLD_HEIGHT = 1440;
-    private BufferedImage world, leftScreen, rightScreen;
-    private Graphics2D buffer;
+    private static final int SCREEN_WIDTH = 961, SCREEN_HEIGHT = 720;
+    private BufferedImage world;
     private JFrame jf;
     private Tank t1, t2;
     private BufferedImage backgroundImg;
@@ -82,7 +81,6 @@ public class GameWorld extends JPanel {
     // Reads Map.txt file to populate game world with objects
     private void createMap() {
         try{
-            InputStream in = getClass().getResourceAsStream("/resources/Map.txt");
             BufferedReader br = new BufferedReader(new InputStreamReader(getClass().getResourceAsStream("/resources/Map.txt")));
             String line;
             int j = 0; // Keeps track of rows
@@ -146,12 +144,6 @@ public class GameWorld extends JPanel {
                 gameObjects.remove(i);
                 i--;
             }
-            if(gameObjects.get(i) instanceof Wall){
-                if (((Wall) gameObjects.get(i)).isBreakable() && !gameObjects.get(i).isAlive()) {
-                    gameObjects.remove(i);
-                    i--;
-                }
-            }
         }
     }
 
@@ -196,7 +188,7 @@ public class GameWorld extends JPanel {
     @Override
     public void paintComponent(Graphics g) {
         Graphics2D g2 = (Graphics2D) g;
-        buffer = world.createGraphics();
+        Graphics2D buffer = world.createGraphics();
         super.paintComponent(g2);
 
         // Refresh background tiles
@@ -210,8 +202,8 @@ public class GameWorld extends JPanel {
             gameObjects.get(i).drawImage(buffer);
         }
 
-        leftScreen = world.getSubimage(getScreenXCoord(t1),getScreenYCoord(t1), SCREEN_WIDTH / 2, SCREEN_HEIGHT);
-        rightScreen = world.getSubimage(getScreenXCoord(t2),getScreenYCoord(t2), SCREEN_WIDTH / 2, SCREEN_HEIGHT);
+        BufferedImage leftScreen = world.getSubimage(getScreenXCoord(t1), getScreenYCoord(t1), SCREEN_WIDTH / 2, SCREEN_HEIGHT);
+        BufferedImage rightScreen = world.getSubimage(getScreenXCoord(t2), getScreenYCoord(t2), SCREEN_WIDTH / 2, SCREEN_HEIGHT);
         g2.drawImage(leftScreen, 0, 0, null);
         g2.drawImage(rightScreen, SCREEN_WIDTH / 2 + 1, 0, null); // Right screen with division line
 
