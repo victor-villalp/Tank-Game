@@ -7,24 +7,63 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01abc5e0-3a20-4021-a2ed-07386d7bccee" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/csc413_tankgame_victor_villalp_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/csc413-tankgame-victor-villalp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/villa.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/csc413_tankgame_victor_villalp_jar/csc413-tankgame-victor-villalp.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/csc413-tankgame-victor-villalp/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/csc413-tankgame-victor-villalp/META-INF/csc413-tankgame-victor-villalp.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/csc413-tankgame-victor-villalp/resources/Background.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/csc413-tankgame-victor-villalp/resources/Explosion_large.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/csc413-tankgame-victor-villalp/resources/Explosion_small.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/csc413-tankgame-victor-villalp/resources/Map.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/csc413-tankgame-victor-villalp/resources/Wall1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/csc413-tankgame-victor-villalp/resources/Wall2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/csc413-tankgame-victor-villalp/resources/Weapon.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/csc413-tankgame-victor-villalp/resources/life.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/csc413-tankgame-victor-villalp/src/Collidable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/csc413-tankgame-victor-villalp/src/GameWorld.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/csc413-tankgame-victor-villalp/src/TankControls.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/csc413-tankgame-victor-villalp/src/gameobjects/Bullet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/csc413-tankgame-victor-villalp/src/gameobjects/GameObject.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/csc413-tankgame-victor-villalp/src/gameobjects/PowerUp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/csc413-tankgame-victor-villalp/src/gameobjects/Tank.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/csc413-tankgame-victor-villalp/src/gameobjects/Wall.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/csc413-tankgame-victor-villalp/tank1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/Background.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/Explosion_large.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/Explosion_small.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/Map.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/Wall1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/Wall2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/Weapon.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/life.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/tank1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jar/r" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/Background.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/Explosion_large.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/Explosion_small.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/Map.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/Wall1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/Wall2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/Weapon.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/life.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/tank1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Collidable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GameWorld.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TankControls.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gameobjects/Bullet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gameobjects/GameObject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gameobjects/PowerUp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gameobjects/Tank.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gameobjects/Wall.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/Background.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/csc413-tankgame-victor-villalp/Background.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/Explosion_large.gif" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/csc413-tankgame-victor-villalp/Explosion_large.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/Explosion_small.gif" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/csc413-tankgame-victor-villalp/Explosion_small.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/Map.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/csc413-tankgame-victor-villalp/Map.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/Wall1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/csc413-tankgame-victor-villalp/Wall1.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/Wall2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/csc413-tankgame-victor-villalp/Wall2.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/Weapon.gif" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/csc413-tankgame-victor-villalp/Weapon.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/life.gif" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/csc413-tankgame-victor-villalp/life.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/tank1.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/csc413-tankgame-victor-villalp/resources/tank1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Collidable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/Collidable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/GameWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TankControls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/TankControls.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gameobjects/Bullet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/gameobjects/Bullet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gameobjects/GameObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/gameobjects/GameObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gameobjects/PowerUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/gameobjects/PowerUp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gameobjects/Tank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/gameobjects/Tank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gameobjects/Wall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/gameobjects/Wall.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -209,15 +248,15 @@
     <option name="x" value="765" />
     <option name="y" value="210" />
     <option name="width" value="1100" />
-    <option name="height" value="1104" />
+    <option name="height" value="1105" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -270,6 +309,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ChangesTree.GroupingKeys" value="directory" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553997404894" />
@@ -441,7 +481,9 @@
       <workItem from="1559446236373" duration="171000" />
       <workItem from="1575876641491" duration="1662000" />
       <workItem from="1576216388271" duration="598000" />
-      <workItem from="1576645505466" duration="318000" />
+      <workItem from="1576645505466" duration="620000" />
+      <workItem from="1576646574509" duration="3000" />
+      <workItem from="1576650241029" duration="11000" />
     </task>
     <task id="LOCAL-00001" summary="Implemented game objects, tank controls, game world and collidable interface. Collisions did behave as expected.">
       <created>1555130790708</created>
@@ -510,12 +552,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="238598000" />
+    <option name="totallyTimeSpent" value="238914000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.118120804" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12080537" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
