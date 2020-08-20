@@ -1,7 +1,6 @@
 # csc413-TankGame
 
 ## Student Name : Victor Villalpando
-## Student ID : 916023568
 
 ## Project Info
   IDE: IntelliJ Idea 2019.1 IDE<br />
